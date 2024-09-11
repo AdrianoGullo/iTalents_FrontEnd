@@ -1,0 +1,119 @@
+body {
+  background-color: #000000d8;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.display {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.display input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  width: 100%;
+  text-align: right;
+}
+
+.result {
+  color: #76e1fe;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #76e1fe;
+}
+
+.clear {
+  grid-column: span 1;
+  background-color: #ff5e5e;
+}
+
+.clear:hover {
+  background-color: #ff8787;
+}
+
+.calculate {
+  grid-column: span 2;
+  color: #333;
+  background-color: #ffffff;
+}
+
+.calculate:hover {
+  color: #333;
+  background-color: #b6b6b6;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: medium;
+}
+
+.footer {
+  font-size: small;
+  text-align: end;
+  color: #fff;
+  font-style: italic;
+}
+
+.delete {
+  color: #fff;
+  background-color: black;
+}
+
+.display {
+  position: relative;
+  overflow: hidden; /* Esconde o excesso de texto que não cabe no display */
+  white-space: nowrap; /* Garante que o texto não quebre em várias linhas */
+}
+
+.display-input {
+  width: auto; /* Permite que o texto se expanda conforme necessário */
+  min-width: 100%; /* Garante que o texto pelo menos se ajuste ao display */
+  text-align: right;
+  font-size: 24px;
+  border: none;
+  background: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateX(0); /* Inicialmente o texto não é movido */
+  transition: transform 0.3s ease; /* Transição suave para o movimento */
+}

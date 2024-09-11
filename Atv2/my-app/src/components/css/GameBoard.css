@@ -1,0 +1,103 @@
+.start-screen {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.start-screen h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.start-screen button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555edb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-screen button:hover {
+  background-color: #45a049;
+}
+
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .badge {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #555edb; /* Azul padrão, você pode alterar a cor */
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    min-width: 100px; /* Para que tenha um tamanho mínimo */
+    margin-right: 5px; /* Espaçamento ao redor */
+  }
+  
+  .game-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+  .badge p {
+    margin: 0;
+  }  
+
+  .game-completion {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .game-completion h2 {
+    color: #4CAF50;
+  }
+  
+  .game-completion p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .game-completion button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .game-completion button:hover {
+    background-color: #45a049;
+  }
+  
