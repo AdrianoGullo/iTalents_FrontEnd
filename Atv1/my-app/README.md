@@ -21,7 +21,7 @@ Nesta atividade, desenvolvemos uma calculadora semi-científica utilizando React
 
 1. Clone o repositório:
    ```bash
-   git clone [URL_DO_REPOSITÓRIO]
+   git clone https://github.com/AdrianoGullo/iTalents_FrontEnd/tree/e1b5359f29d8e89f9c6b105d19d2bec55e097b1c/Atv1/my-app
 
 
 2. Navegue até o diretório do projeto e inicie:
