@@ -18,7 +18,7 @@ Bem-vindo ao **Jogo de Memória com Times de Futebol**! Este é um jogo de memó
 1. **Clone o Repositório:**
 
     ```bash
-    git clone https://github.com/seuusuario/nome-do-repositorio.git
+    git clone https://github.com/seuusuario/nome-do-repositorio.git](https://github.com/AdrianoGullo/iTalents_FrontEnd/blob/be9f15472e751ed6ff8fc5bc857d28ced2b3879f/Atv2/my-app
     ```
 
 2. **Navegue para o Diretório do Projeto:**
